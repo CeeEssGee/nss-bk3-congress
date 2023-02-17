@@ -1,0 +1,40 @@
+<!-- opening tags for html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+<!-- linking to stylesheet so I can adjust formatting using CSS -->
+    <link rel="stylesheet" href="styles/main.css">
+  </head>
+  <body>
+    <!-- In your HTML, create an article element that will serve as your main representative component. Give the element a unique identifier. -->
+	<article id="main-rep">
+        <!-- In this component, create a sub-component for basic information using the section element. In this section create elements for the representative's image, name, district info, and political affiliation. -->
+        <section class="basic-info">
+            <div class="rep-image"><img class=headshot src="https://upload.wikimedia.org/wikipedia/commons/e/eb/Senator_Rubio_official_portrait.jpg"></div>
+            <div class="rep-name">Marco Rubio</div>
+            <div class="rep-district">Florida's 5th Congressional District</div>
+            <div class="rep-political-affiliation">Republican</div>
+        </section>
+        <!-- Beneath the basic information, you will create a sub-component, using a section element, to list any committees the candidate is serving on. -->
+        <section class="committees">Committee Assignments</section>
+            <div class="committee-list">
+                <ul>Vice Chairman of the <a href="http://intelligence.senate.gov/">Select Committee on Intelligence</a></ul>
+                <ul>Senior member of the <a href="http://foreign.senate.gov/">Committee on Foreign Relations</a></ul>
+                <ul>Former chairman of the <a href="http://sbc.senate.gov/">Committee on Small Business and Entrepreneurship</a></ul>
+                <ul>Member of the <a href="http://www.appropriations.senate.gov/">Committee on Appropriations</a></ul>
+                <ul>Member of the <a href="https://www.aging.senate.gov/">Special Committee on Aging</a></ul>
+            </div>
+            <!-- The last component will hold links to any legislation that your representative has enacted. -->
+        <section class="enacted-legistlation">Rubio was the primary sponsor of 37 bills that were enacted. The most recent include:
+            <div class="legisation-links">
+                <ul><a href="https://www.govtrack.us/congress/bills/117/s1687"></a>S. 1687 (117th): Small Business Cyber Training Act of 2022</a></ul>
+                <ul><a href="https://www.govtrack.us/congress/bills/117/s2159"></a>S. 2159 (117th): A bill to designate the community-based outpatient clinic of the Department of Veterans Affairs located at 400 College Drive, Middleburg, Florida, as the “Andrew K. Baker Department …</a></ul>
+                <ul><a href="https://www.govtrack.us/congress/bills/117/s3895"></a>S. 3895 (117th): United States Commission on International Religious Freedom Reauthorization Act of 2022</a></ul>
+                <ul><a href="https://www.govtrack.us/congress/bills/117/s3240"></a>S. 3240 (117th): Free Veterans from Fees Act</a></ul>
+                <ul><a href="https://www.govtrack.us/congress/bills/117/s2938"></a>S. 2938 (117th): Bipartisan Safer Communities Act
+                </a></ul>
+            </div>
+        </section>
+    </article>
+  </body>
+</html>
